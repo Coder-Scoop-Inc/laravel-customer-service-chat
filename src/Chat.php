@@ -9,5 +9,13 @@ namespace Coderscoop\Chat;
  */
 class Chat 
 {
-    //put your code here
+    public function __construct() 
+    {
+        ;
+    }
+    
+    public function dummy()
+    {
+        return "Hello world in a dummy way!";
+    }
 }

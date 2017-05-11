@@ -1,0 +1,29 @@
+{
+    "name": "coderscoop/laravel-customer-service-chat",
+    "description": "A ready to go customer service chat widget for Laravel 5.x. Developers: Samy Otero, Steve Wright, Coder Scoop.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SamyOteroGlez",
+            "email": "otero.glez.samy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "behat/behat": "^3.3",
+        "behat/mink": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coderscoop\\Chat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coderscoop\\Chat\\Tests\\": "test/"
+        }
+    }
+}

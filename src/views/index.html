@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Font Taviraj -->
+    <link href="https://fonts.googleapis.com/css?family=Taviraj:100,200,400" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <title>CoderScoopChat / HTML template</title>
+  </head>
+  <body>
+    <button type="button" aria-label="chat button" id="chat-btn" onclick="openChat()"></button>
+    <div id="chat">
+      <div id="chat-header">
+        <img src="../assets/images/chat-bubble.svg" alt="chat bubble icon">
+        <div class="header-text">
+          <span>CoderScoop</span>Chat
+          <button type="button" aria-label="close chat button" id="close-btn" onclick="closeChat()"></button>
+        </div>
+      </div>
+      <div id="chat-body">
+        <div class="operator">
+          <img src="../assets/images/support-avatar.jpg" alt="Support avatar">
+          <div class="body-text">
+            <div class="credentials">
+              Alexis <span>SUPPORT</span>
+            </div>
+            <div class="speech">
+              Hi, John. How can I help you?
+            </div>
+          </div>
+        </div>
+        <div class="customer">
+          <img src="../assets/images/client-avatar.jpg" alt="Support avatar">
+          <div class="body-text">
+            <div class="credentials">
+              John <span>CUSTOMER</span>
+            </div>
+            <div class="speech">
+                I need your London Launch Code Team for a new Laravel project.
+            </div>
+          </div>
+        </div>
+        <div class="operator">
+          <img src="../assets/images/support-avatar.jpg" alt="Support avatar">
+          <div class="body-text">
+            <div class="credentials">
+              Alexis <span>SUPPORT</span>
+            </div>
+            <div class="speech">
+              Good news, John. They have just finished new awesome Chat package and ready for new opportunities.
+            </div>
+          </div>
+        </div>
+        <div class="customer">
+          <img src="../assets/images/client-avatar.jpg" alt="Support avatar">
+          <div class="body-text">
+            <div class="credentials">
+              John <span>CUSTOMER</span>
+            </div>
+            <div class="speech">
+                Phasellus facilisis, nibh ac hendrerit euismod, augue tellus imperdiet ligula, in feugiat ante velit ut tellus. In hac habitasse platea dictumst. In scelerisque at ex in placerat.
+            </div>
+          </div>
+        </div>
+        <div class="operator">
+          <img src="../assets/images/support-avatar.jpg" alt="Support avatar">
+          <div class="body-text">
+            <div class="credentials">
+              Alexis <span>SUPPORT</span>
+            </div>
+            <div class="speech">
+              Nullam hendrerit faucibus lectus et varius. Praesent convallis sed eros a ornare. Integer ultrices vulputate velit, at feugiat orci varius nec. In tempor dui id purus auctor malesuada.
+            </div>
+          </div>
+        </div>
+        <div class="customer">
+          <img src="../assets/images/client-avatar.jpg" alt="Support avatar">
+          <div class="body-text">
+            <div class="credentials">
+              John <span>CUSTOMER</span>
+            </div>
+            <div class="speech">
+                Aliquam eu orci diam. Ut vestibulum tincidunt venenatis.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="chat-footer">
+        <form>
+          <div class="type-area">
+            <textarea name="textarea" placeholder="Type here"></textarea><br>
+            <span class="status">John is typing...</span>
+          </div>
+          <div class="button-area">
+            <button type="button" name="send" aria-label="send message">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="../assets/js/app.js"></script>
+  </body>
+</html>
